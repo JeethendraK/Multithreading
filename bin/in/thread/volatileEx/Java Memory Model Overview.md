@@ -56,7 +56,7 @@ Visibility Problem: When one thread changes the value of a shared object, other 
 Example:
 
 java
-Copy
+
 // Thread 1 updates object1
 object1.value = 20; // but this might not be visible to Thread 2 immediately
 
